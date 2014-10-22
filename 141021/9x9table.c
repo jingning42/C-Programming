@@ -1,6 +1,6 @@
 #include<stdio.h>
 /*print 9x9 multiplication table*/
-main()
+int main()
 {
   int i,j;
   printf("   1   2   3   4   5   6   7   8   9\n");
@@ -10,4 +10,5 @@ main()
         printf("%4d",i*j);
       printf("\n");
     }
+  return 0;
 }

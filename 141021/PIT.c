@@ -1,5 +1,5 @@
 #include<stdio.h>
-main()
+int main()
 {
   int salary;
   printf("Please input your salary number: ");
@@ -26,4 +26,5 @@ main()
         }
       printf("Personal income tax is %.1f yuan!\n",tax);
     }
+  return 0;
 }
