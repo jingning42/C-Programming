@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<math.h>
-/* input a,b,c and find the root of ax^2+bx+c = 0 */
+/* input a,b,c and find the real root of ax^2+bx+c = 0 */
 int main()
 {
   float a,b,c;
@@ -11,7 +11,7 @@ int main()
     {
       double x;
       if (b==0)
-        printf("All real number is root!\n");
+        printf(c==0?"All real number is root!\n":"No real root exist!\n");
       else
         {
           x = -(double)(c/b);
@@ -20,7 +20,7 @@ int main()
     }
   else
     {
-      if (delta >=0)
+      if (delta >= 0)
         {
           double x1 = (-b+sqrt(delta))/(2*a);
           double x2 = (-b-sqrt(delta))/(2*a);
