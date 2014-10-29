@@ -21,8 +21,8 @@ int main()
       c[i][j] = 0;
       for (k=0; k<p; k++) 
         c[i][j] += a[i][k]*b[k][j];
-      printf("c[%d][%d]=d%8d\n",i,j,c[i][j]);
-      //printf("%8d%c",c[i][j],j%n?' ':'\n');  i will fix later!!
+      //printf("c[%d][%d]=d%8d\n",i,j,c[i][j]);
+      printf("%8d%c",c[i][j],j!=n-1?' ':'\n');  
     }
   return 0;
 }
