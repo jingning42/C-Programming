@@ -10,17 +10,17 @@ int main()
   a[N-1]=' ';
   printf("Please input some sentencs.When stop input 'ctrl+D'.\n");
 
-  while ( (a[i]=getchar()) != EOF)
+  while ((a[i]=getchar()) != EOF)
     i++;
   a[i]=0;
 
-  for (i=0; i<N && a[i]=='\0'; ++i) 
+  for (i=0; i<N && a[i]!='\0'; ++i)
     if (a[i]<'A' || (a[i]>'Z' && a[i]<'a') || a[i]>'z')
       a[i] = ' ';  // fix me!
 
   printf("%s\n",a);
 
-  for (i=0; i<N; i++)
+  for (i=0; i<N-1; i++)
     if (a[i]==' ' && a[i+1]!=' ')
       nspece += 1;
 
@@ -29,3 +29,4 @@ int main()
   return 0;
 }
 
+//用了很麻烦的方法啦！
