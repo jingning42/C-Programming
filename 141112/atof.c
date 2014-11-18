@@ -47,7 +47,7 @@ double atof(char s[])
 
 int main()
 {
-  char a[32];
+  char a[MAX];
   double fnum;
   printf("Please input a number: ");
   scanf("%s",a);
