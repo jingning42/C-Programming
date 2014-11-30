@@ -20,8 +20,8 @@ int main() {
             for (i=0; i<3; i++)
                 printf("%d ", fail[i]);
             printf("\n");
+            return 0;
         }
-        return 0;
     }
 
     printf("No failed student!\n");

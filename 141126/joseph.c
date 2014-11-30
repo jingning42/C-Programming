@@ -16,6 +16,7 @@ int joseph(int n, int k) {
 }
 int main() {
     int n;
+    printf("Please input the number of people: ");
     scanf("%d", &n);
     printf("%d\n", joseph(n, 3));
 }

@@ -36,8 +36,8 @@ int main() {
     char *tosort[5];
 
     pstr[1] = "1111";
-    pstr[0] = "2222";
-    pstr[3] = "333";
+    pstr[0] = "1222";
+    pstr[3] = "1233";
     pstr[4] = "44444";
     pstr[2] = "55";
 
