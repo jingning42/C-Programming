@@ -83,7 +83,7 @@ int file2print(FILE *fp)
     int j;
     struct couple cp[i];
     for (j = 0; j < i; j++) {
-        fread(&cp[i], sizeof(struct couple), 1, fp);
+        fread(&cp[j], sizeof(struct couple), 1, fp);
         printf("No.%d couple is %s and %s\n", cp[j].No, cp[j].boy_name, cp[j].girl_name);
     }
     return 0;
