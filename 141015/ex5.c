@@ -1,6 +1,10 @@
+/*********************
+ * 教材85页习题6(4)
+ *********************/
+
 #include<stdio.h>
 /*输入5个数，计算一个分式的值*/
-main()
+int main()
 {
   float a,b,c,d,e;
   printf("Input a,b,c,d,e,\n\
@@ -16,4 +20,5 @@ Please input a,b,c,d,e in order:");
     }
   else
     printf("Input Error!Please make sure the demoninator is not 0\n");
+  return 0;
 }

@@ -1,5 +1,9 @@
+/*********************************
+ * Book P112 Exercise 5
+ * print 9x9 multiplication table
+ *********************************/
+
 #include<stdio.h>
-/*print 9x9 multiplication table*/
 int main()
 {
   int i,j;

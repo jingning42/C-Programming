@@ -1,5 +1,10 @@
+/******************************************
+ * 教材112页习题7
+ * calculate the approximative value of pi
+ ******************************************/
+
+
 #include<stdio.h>
-/*calculate the approximative value of pi*/
 int main()
 {
   double i,j,PI=2;

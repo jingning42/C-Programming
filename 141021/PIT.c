@@ -1,3 +1,8 @@
+/******************************************
+ * Book P112 Exercise 2
+ * Learn how to use switch
+ * calculate personal income tax
+ ******************************************/
 #include<stdio.h>
 int main()
 {
