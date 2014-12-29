@@ -1,0 +1,2 @@
+no = 1, salary = 1.00
+no = 2, salary = 2.00
