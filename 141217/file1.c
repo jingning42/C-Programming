@@ -14,15 +14,15 @@ int main()
     FILE *fp;
     struct couple *head;
     
-    if ((fp = fopen("input.txt", "r")) == NULL) {
-        printf("Can not open this file input.txt\n");
+    if ((fp = fopen("input1.txt", "r")) == NULL) {
+        printf("Can not open this file input1.txt\n");
         return 0;
     }
     head = createCPLL(fp);
     fclose(fp);
     
-    if ((fp = fopen("output.txt", "w")) == NULL) {
-        printf("Can not open this file output.txt\n");
+    if ((fp = fopen("output1.txt", "w")) == NULL) {
+        printf("Can not open this file output1.txt\n");
         return 0;
     }
     print2file(head, fp);
