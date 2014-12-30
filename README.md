@@ -41,7 +41,12 @@
   - file2.c 从键盘输入数据，尾插法建立链表，写入couple2.out，再从文件输出到显示屏  
   - filecopy3.c 用带参main函数复制文件，用fgetc,fputc实现文本复制部分  
   - filecopy4.c 用带参main函数复制文件，用fgets,fputs实现文本复制部分  
-
+- 141210  
+  - createcpll1.c 头插法建立链表，从键盘读入数据，并链表的数据输出到显示屏      
+  - createcpll2.c 尾插法建立链表，从键盘读入数据，并链表的数据输出到显示屏   
+  - deletell.c 可连续删除链表中的元素，在createcpll2.c中加一个删除的函数。  
+  - insertll.c 向已排序好的链表中插入元素，在createcpll1.c中加入一个插入函数，并默认输入的是有序数据。  
+- 待续  
 
 **友情链接**  
 我们可以到这里看~alkaid的代码：http://home.ustc.edu.cn/~alkaid/  
