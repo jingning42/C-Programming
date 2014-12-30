@@ -98,8 +98,11 @@ struct couple *deleteCPLL(struct couple *head, int No)
         return head;
     }  
     /* delete the first node */
-    if (head->No == No) 
-        return head->next;
+    if (head->No == No) {
+        head = head->next;
+        free(pnow);
+        return head;
+    }
     
     /* when didn't fine */
     while (pnow->next != NULL && pnow->next->No != No)
