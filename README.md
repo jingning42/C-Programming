@@ -46,7 +46,14 @@
   - createcpll2.c 尾插法建立链表，从键盘读入数据，并链表的数据输出到显示屏   
   - deletell.c 可连续删除链表中的元素，在createcpll2.c中加一个删除的函数。  
   - insertll.c 向已排序好的链表中插入元素，在createcpll1.c中加入一个插入函数，并默认输入的是有序数据。  
-- 待续  
+- 141203  
+  - matrix_5x5.c 课本257/13，用指针将5x5矩阵元素按要求进行处理  
+  - SelectSort.c 选择排序，在matrix_5x5.c中作为 #include "SelectSort.c" 被引用  
+  - SortStr.c 课本257/15，用指针实现“输入5个字符串，按从小到大顺序输出”  
+  - fun_pointer.c 课本257/17，用指向函数的指针求几个函数的定积分  
+  - struct_book.c 课本279/1，声明一个图书相关的结构体，并输入输出信息  
+- 141126 
+  - 
 
 **友情链接**  
 我们可以到这里看~alkaid的代码：http://home.ustc.edu.cn/~alkaid/  
