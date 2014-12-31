@@ -53,8 +53,21 @@
   - fun_pointer.c 课本257/17，用指向函数的指针求几个函数的定积分  
   - struct_book.c 课本279/1，声明一个图书相关的结构体，并输入输出信息  
 - 141126 
-  - 
-
+  - 待续  
+- 141118  
+  - reverse_str.c 课本194/8，函数实现字符串反序输出  
+  - score.c 课本195/13，不同的函数实现数据处理，如求平均数、方差  
+  - macros_with_arguments.c 课本204/4，定义一个带参宏，实现参数值互换  
+  - char_pointer.c 字符指针与行指针的学习  
+  - int_pointer.c 行指针 (*p)[N] 的学习  
+- 141112  
+  - 待续
+- 141105  
+  - 待续
+- 141029  
+  - 待续  
+   
+  
 **友情链接**  
 我们可以到这里看~alkaid的代码：http://home.ustc.edu.cn/~alkaid/  
 也可以看boj的代码：https://github.com/boj  
