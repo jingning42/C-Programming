@@ -4,7 +4,8 @@
 
 /* this function generate a pseudo-random list,
  N : the number of list elements,
- MAX : the range of random number is between 0 and MAX */
+ MAX : the range of random numbers is between 0 and MAX */
+
 int generator(int randlist[],int N,int MAX)
 {
   srand( (unsigned) time(NULL) );

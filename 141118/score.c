@@ -1,6 +1,6 @@
 /**
  *
- * never thought this problem will cause so much time!
+ * never thought this problem will cost so much time!
  * 二维数组作为函数参数的问题
  */
 

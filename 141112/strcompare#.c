@@ -1,5 +1,5 @@
-/* in this code we write 4 function to input a character array .
-   we can see their difference usages! */
+/* in this code we write 4 functions to input a character array .
+   we can see their different usages! */
 
 #include <stdio.h>
 
@@ -17,7 +17,7 @@ char strcompare(char a[],char b[])
 }
 
 /* scanf() */
-/* you can only input a string before space*/
+/* you can only input a string before space */
 int inputarray0(char a[])
 {
   printf("Please input a string end with 'enter': ");
@@ -56,7 +56,7 @@ int inputarray2(char a[])
 }
 
 /* gets() and puts() */
-/* gets() will cause a lot of warning!*/
+/* gets() may cause a lot of warnings!*/
 int inputarray3(char a[])
 {
   printf("Please input a string end with 'enter': ");
