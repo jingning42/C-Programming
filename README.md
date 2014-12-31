@@ -68,7 +68,8 @@
   - 待续  
    
   
-**友情链接**  
+**友情链接 & 特别感谢**  
+助教之一：赵聪 | 他的github:https://github.com/zhaocong89  
 我们可以到这里看~alkaid的代码：http://home.ustc.edu.cn/~alkaid/  
 也可以看boj的代码：https://github.com/boj  
 还有cuihao的代码：http://cuihaopy.appspot.com/?p=105001  
