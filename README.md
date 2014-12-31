@@ -61,9 +61,17 @@
   - char_pointer.c 字符指针与行指针的学习  
   - int_pointer.c 行指针 (*p)[N] 的学习  
 - 141112  
-  - 待续
+  - Josephus.c 课本165/17，约瑟夫问题：http://en.wikipedia.org/wiki/Josephus_problem  
+  - atof.c 课本194/6，函数实现“将数字字符串转换成等价的双精度浮点数”  
+  - strcompare.c 输入两个字符串，比大小。输出为"a > b"的格式  
+  - strcompare#.c 比较scanf,getchar,gets在输入字符串上面的不同，功能与strcompare.c相同  
+  - pseudorandomness.c 写一个随机数生成函数，并把生成的随机数组排序输出。  
 - 141105  
-  - 待续
+  - Bisection.c 用二分法求解方程 2x^3+4x^2+3x-6 = 0 的近似解  
+  - Newton.c 用牛顿法求解方程 2x^3+4x^2+3x-6 = 0 的近似解  
+  - LCMandHCD.c 输入两个自然数，求它们的最大公因数和最小公倍数  
+  - WordNum.c 输入语句，判断单词的个数：用了字符数组以及很麻烦的方法。  
+  - WordNum#.c 输入语句，判断单词的个数：引入ischar函数，巧妙的解法。  
 - 141029  
   - 待续  
    
