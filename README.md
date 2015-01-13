@@ -94,9 +94,11 @@
 **友情链接 & 特别感谢**  
 感谢助教赵聪：https://github.com/zhaocong89  
 我们可以到这里看~alkaid的代码：http://home.ustc.edu.cn/~alkaid/  
-也可以看boj的代码：https://github.com/boj  
+也可以看boj的代码：https://github.com/bojieli  
 还有cuihao的代码：http://cuihaopy.appspot.com/?p=105001  
 
+**发现错误**  
+如果你发现任何错误，不管是代码错误、注释错误、信息错误，都欢迎告诉我
 <!--
 这份markdown大概花了整整两个半天的时间来写，顺便也把自己的上机代码大体看了一遍。  
 发现之前很多文件命名不合理，如用特殊字符，  
