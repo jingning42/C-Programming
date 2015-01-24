@@ -10,10 +10,6 @@
 - 作业考试：主要为上机作业，只有一次期末考是笔试(2014.12.28)  
 
 
-**课程评价和相册**  
-可以看[这里](http://home.ustc.edu.cn/~jenny42/c-programming.html)。
-
-
 **按照上机日期建立文件夹**  
 
 日期    |               题目              |           内容
@@ -95,6 +91,7 @@
 
    
 **友情链接 & 特别感谢**  
+课程评价和相册：可以看[这里](http://home.ustc.edu.cn/~jenny42/c-programming.html)。
 感谢助教赵聪：https://github.com/zhaocong89  
 我们可以到这里看~alkaid的代码：http://home.ustc.edu.cn/~alkaid/  
 也可以看boj的代码：https://github.com/bojieli  
