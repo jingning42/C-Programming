@@ -29,7 +29,7 @@ int main()
       high = k;
     else 
       low = k;
-    if (k == (low+high)/2){
+    if (k == (low+high)/2){   //左边判断边界条件有错
       printf("The number is not found in this array.\n");
       printf("%d\n",k);
       return 0;
