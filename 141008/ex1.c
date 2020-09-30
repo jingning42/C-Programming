@@ -23,5 +23,5 @@ main()
   printf("sizeof:%d, d=%6.2f, e=%6.2f\n",sizeof(float),d,e);
   printf("sizeof:%d, f=%15.6f, g=%15.12f\n",sizeof(double),f,g);
   printf("sizeof:%d, m=%1d, n=%1d\n",sizeof(long),m,n);
-  printf("sizeof:%d, p=%u, q=%u\n",sizeof(unsigned),p,q);
+  printf("sizeof:%d, p=%u, q=%u",sizeof(unsigned),p,q);
 }
